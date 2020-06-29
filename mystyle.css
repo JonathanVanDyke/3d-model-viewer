@@ -1,15 +1,25 @@
 .userR {
     /* background-color: blue; */
-    animation: mymoveR 1.5s ease-in 1;
+    animation: mymoveR 2s ease-in 1;
 }
 
 @keyframes mymoveR {
-    0%   {padding-left: 1000px;}
-    50%   {padding-left: 1000px;}
-    100% {padding-left: 0px;}
+    0%   {
+        padding-left: 1000px;
+        opacity: 0;
+    }
+    50%   {
+        padding-left: 1000px;
+        opacity: 0;
+    }
+    75% {opacity: 0;}
+    100% {
+        padding-left: 0px;
+        opacity: 1;
+    }
   }
 
 .userL {
     /* background-color: blue; */
-    animation: mymoveR 2s ease-in 1;
+    animation: mymoveR 2.5s ease-in 1;
 }
