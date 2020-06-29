@@ -9,7 +9,25 @@
 </head>
 <body>
     <p>
-        <model-viewer src="./shared-assets/models/Parixit.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+        <div style="display: flex; height: max-content; width: max-content;">
+            <div>
+                <model-viewer 
+                    src="./shared-assets/models/Parixit.glb" 
+                    alt="A 3D model of an astronaut" 
+                    auto-rotate 
+                    camera-controls
+                    camera-orbit="180deg 75deg 105%"
+                />
+            </div>
+            <div>
+                <model-viewer 
+                    src="./shared-assets/models/Jonathan.glb" 
+                    alt="A 3D model of an astronaut" 
+                    auto-rotate 
+                    camera-controls
+                />
+            </div>
+        </div>
     </p>
 </body>
 </html>
