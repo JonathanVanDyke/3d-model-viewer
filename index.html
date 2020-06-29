@@ -10,13 +10,20 @@
 <body>
     <p>
         <div style="display: flex; height: max-content; width: max-content;">
-            <div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
                 <model-viewer 
                     src="./shared-assets/models/Parixit.glb" 
                     alt="A 3D model of an astronaut" 
                     auto-rotate 
                     camera-controls
                     camera-orbit="180deg 75deg 105%"
+                    style="
+                        height: 250px; 
+                        width: 300px; 
+                        margin: 20px;
+                        border: 2px solid lightgrey;
+                        border-radius: 20px;
+                    "
                 />
             </div>
             <div>
@@ -25,6 +32,13 @@
                     alt="A 3D model of an astronaut" 
                     auto-rotate 
                     camera-controls
+                    style="
+                        height: 250px; 
+                        width: 300px; 
+                        margin: 20px;
+                        border: 2px solid lightgrey;
+                        border-radius: 20px;
+                    "
                 />
             </div>
         </div>
