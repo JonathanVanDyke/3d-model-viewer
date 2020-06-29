@@ -1,5 +1,5 @@
 .userR {
-    background-color: blue;
+    /* background-color: blue; */
     animation: mymoveR 1.5s ease-in 1;
 }
 
@@ -10,6 +10,6 @@
   }
 
 .userL {
-    background-color: blue;
+    /* background-color: blue; */
     animation: mymoveR 2s ease-in 1;
 }
