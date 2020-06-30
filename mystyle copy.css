@@ -32,7 +32,7 @@ img {
 
 .userWrapper {
     display: flex; 
-    /* flex-direction: column;  */
+    flex-direction: column; 
     height: max-content; 
     width: 1uv;
 }
