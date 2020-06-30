@@ -20,12 +20,13 @@ p {
 }
 
 img {
-    width: 300px; 
-    border-radius: 20px;
+    width: 250px; 
+    height: 100%;
+    border-radius: 5px;
 }
 
 .viewer3D {
-    height: 300px; 
+    height: 225px; 
     width: 100px; 
     margin-left: 20px;
 }
@@ -36,6 +37,11 @@ img {
     /* flex-direction: column;  */
     height: max-content; 
     width: 1uv;
+}
+
+.title {
+    font-size: 40px; font-weight: 600; color: #545454; text-align: center;
+        margin-top: 30px;
 }
 
 .user1 {
@@ -58,6 +64,16 @@ img {
     padding-left: 0px; 
     justify-content: flex-start; 
     width: 450px;
+}
+
+.dividingLine {
+    width: 1px;
+    height: 300px;
+    opacity: .4;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 100px;
+    margin-top: 200px;
 }
 
 @keyframes mymoveR {
