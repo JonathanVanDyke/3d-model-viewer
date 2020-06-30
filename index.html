@@ -10,9 +10,9 @@
 </head>
 <body>
     <p>
-        <div style="display: flex; flex-direction: column; height: max-content; width: 1uv;">
-            <div class="userR" style="display: flex; align-items: flex-start; height: 300px; padding: 30px; padding-left: 0px; justify-content: flex-start; width: 800px;">
-                <img src="shared-assets/Photos/Parixit.png" style="width: 300px; border-radius: 20px;"/>
+        <div class="userWrapper">
+            <div class="user1">
+                <img src="shared-assets/Photos/Parixit.png"/>
                 <section>
                     <model-viewer 
                     src="./shared-assets/models/Parixit.glb" 
@@ -20,38 +20,30 @@
                     auto-rotate 
                     camera-controls
                     camera-orbit="180deg 75deg 105%"
-                    style="
-                            height: 300px; 
-                            width: 100px; 
-                            margin-left: 20px;
-                        "
+                    class="viewer3D"
                     />
                 </section>
-                <section style="display: flex; flex-direction: column; align-items: flex-start;">
-                    <h1 style="margin: 8px;">Parixit Davé</h1>
-                    <h4 style="margin: 8px;">Director of Emerging Technologies</h4>
-                    <p style="margin: 8px;">Parixit Davé was one of the original founders of the Emerging Technologies Consortium and now leads the Emerging Technologies team within CUIT. As the team is central to CUIT, Parixit is able to connect not just with faculty but also many of the current technological leaders in the world of emerging technology.</p>
+                <section class="profileSection">
+                    <h1>Parixit Davé</h1>
+                    <h4>Director of Emerging Technologies</h4>
+                    <p>Parixit Davé was one of the original founders of the Emerging Technologies Consortium and now leads the Emerging Technologies team within CUIT. As the team is central to CUIT, Parixit is able to connect not just with faculty but also many of the current technological leaders in the world of emerging technology.</p>
                 </section>
             </div>
-            <div class="userL"style="display: flex; align-items: flex-start; height: 300px; padding: 30px; padding-left: 0px; justify-content: flex-start; width: 800px;">
-                <img src="shared-assets/Photos/Jonathan.png" style="width: 300px; border-radius: 20px;"/>
+            <div class="user2">
+                <img src="shared-assets/Photos/Jonathan.png"/>
                 <section>
                     <model-viewer 
                         src="./shared-assets/models/Jonathan.glb" 
                         alt="A 3D model of an astronaut" 
                         auto-rotate 
                         camera-controls
-                        style="
-                            height: 300px; 
-                            width: 100px; 
-                            margin-left: 20px;
-                        "
+                        class="viewer3D"
                     />
                 </section>
-                <section style="display: flex; flex-direction: column; justify-content: flex-start;">
-                    <h1 style="margin: 8px;">Jonathan Van Dyke</h1>
-                    <h4 style="margin: 8px;">Emerging Technologist</h4>
-                    <p style="margin: 8px;">Jonathan Van Dyke is the technologist of the small Emerging Technologies team. He has a background in engineering, research, and has been the technical lead on projects ranging from supercomputing to aircraft systems. New to the group, Jonathan has been striving to learn as much as he can about the current Extended Reality Industry and how Columbia can best put it to use.</p>
+                <section class="profileSection">
+                    <h1>Jonathan Van Dyke</h1>
+                    <h4>Emerging Technologist</h4>
+                    <p>Jonathan Van Dyke is the technologist of the small Emerging Technologies team. He has a background in engineering, research, and has been the technical lead on projects ranging from supercomputing to aircraft systems. New to the group, Jonathan has been striving to learn as much as he can about the current Extended Reality Industry and how Columbia can best put it to use.</p>
                 </section>
 
             </div>

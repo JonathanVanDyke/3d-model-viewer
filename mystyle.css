@@ -3,19 +3,41 @@
     font-family: "proxima-nova",sans-serif;
     font-size: 18px;
     margin: 0 0 20px;
-    /* width: 780px; */
 }
 
 h1 {
     font-size: 24px;
+    margin: 8px;
 }
 
 h4 {
     font-size: 20px;
+    margin: 8px;
 }
 
-.userR {
-    /* background-color: blue; */
+p {
+    margin: 8px;
+}
+
+img {
+    width: 300px; 
+    border-radius: 20px;
+}
+
+.viewer3D {
+    height: 300px; 
+    width: 100px; 
+    margin-left: 20px;
+}
+
+.userWrapper {
+    display: flex; 
+    flex-direction: column; 
+    height: max-content; 
+    width: 1uv;
+}
+
+.user1 {
     animation: mymoveR 2s ease-in 1;
     display: flex; 
     align-items: flex-start; 
@@ -23,26 +45,31 @@ h4 {
     padding: 30px; 
     padding-left: 0px; 
     justify-content: flex-start; 
-    width: 800px;
+    width: 780px;
+}
+
+.user2 {
+    animation: mymoveR 2.5s ease-in 1;
+    display: flex; 
+    align-items: flex-start; 
+    height: 300px; 
+    padding: 30px; 
+    padding-left: 0px; 
+    justify-content: flex-start; 
+    width: 780px;
 }
 
 @keyframes mymoveR {
-    0%   {
-        /* padding-left: 1000px; */
-        opacity: 0;
-    }
-    50%   {
-        /* padding-left: 1000px; */
-        opacity: 0;
-    }
-    75% {opacity: 0;}
-    100% {
-        /* padding-left: 0px; */
-        opacity: 1;
-    }
+    0%   {opacity: 0;}
+    50%  {opacity: 0;}
+    75%  {opacity: 0;}
+    100% {opacity: 1;}
   }
 
-.userL {
-    /* background-color: blue; */
-    animation: mymoveR 2.5s ease-in 1;
-}
+  .profileSection {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+
