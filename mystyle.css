@@ -66,14 +66,25 @@ img {
     width: 450px;
 }
 
+.user3 {
+    animation: mymoveR 3s ease-in 1;
+    display: flex; 
+    align-items: flex-start; 
+    height: 300px; 
+    padding: 30px; 
+    padding-left: 0px; 
+    justify-content: flex-start; 
+    width: 450px;
+}
+
 .dividingLine {
-    width: 1px;
+    width: 2px;
     height: 300px;
     opacity: .4;
     background-color: lightgray;
     border-radius: 20px;
-    margin: 100px;
-    margin-top: 200px;
+    margin: 50px;
+    margin-top: 100px;
 }
 
 @keyframes mymoveR {
